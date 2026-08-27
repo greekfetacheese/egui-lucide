@@ -1,0 +1,22 @@
+[package]
+name = "egui-lucide"
+authors = ["Michalis Molfetas <greekfetacheese@proton.me>"]
+version = "0.1.0"
+edition = "2024"
+description = "Lucide SVG icons for egui, with runtime color, stroke width, and size."
+license = "MIT AND ISC"
+readme = "README.md"
+keywords = ["egui", "lucide", "icons", "svg", "gui"]
+categories = ["gui"]
+repository = "https://github.com/greekfetacheese/egui-lucide"
+exclude = ["scripts/"]
+
+[dependencies]
+egui = "0.36"
+
+[dev-dependencies]
+eframe = "0.36"
+egui_extras = { version = "0.36", features = ["svg"] }
+
+[[example]]
+name = "gallery"
