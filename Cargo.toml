@@ -1,7 +1,7 @@
 [package]
 name = "egui-lucide"
 authors = ["Michalis Molfetas <greekfetacheese@proton.me>"]
-version = "0.1.0"
+version = "0.2.0"
 edition = "2024"
 description = "Lucide SVG icons for egui, with runtime color, stroke width, and size."
 license = "MIT AND ISC"
