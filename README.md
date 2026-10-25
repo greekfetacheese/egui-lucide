@@ -2,7 +2,7 @@
 
 [Lucide](https://lucide.dev) SVG icons for [egui](https://github.com/emilk/egui), with runtime **color**, **stroke width**, and **size**.
 
-Icons are generated from a pinned Lucide release (`1.34.0`) and compiled into the crate. You do not download SVGs at build time.
+Icons are generated from a pinned Lucide release (`1.61.0`) and compiled into the crate. You do not download SVGs at build time.
 
 ## Usage
 
@@ -49,9 +49,9 @@ The `bytes://` URI includes color and stroke and **ends with `.svg`** (`bytes://
 From a Lucide GitHub archive (do not commit the tarball):
 
 ```sh
-curl -sL -o /tmp/lucide-1.34.0.tar.gz \
-  https://github.com/lucide-icons/lucide/archive/refs/tags/1.34.0.tar.gz
-python3 scripts/generate.py --archive /tmp/lucide-1.34.0.tar.gz --version 1.34.0
+curl -sL -o /tmp/lucide-1.61.0.tar.gz \
+  https://github.com/lucide-icons/lucide/archive/refs/tags/1.61.0.tar.gz
+python3 scripts/generate.py --archive /tmp/lucide-1.61.0.tar.gz --version 1.61.0
 ```
 
 That overwrites `src/generated.rs`. Bump `LUCIDE_VERSION` by passing `--version` to match the tag.
